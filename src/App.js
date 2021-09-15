@@ -19,7 +19,7 @@ function App() {
     setHex(randomColor);
   }; */
 
-  // onChange Handlers
+  //  Handlers
   function onChangeHue(event) {
     setHue(event.currentTarget.value);
   }
@@ -44,20 +44,19 @@ function App() {
         minHeight: '33vh',
         overflow: 'hidden',
         zoom: 3,
+        transition: 'all  2s ease',
       }}
     >
       <h1>{hex}</h1>
 
       <Input
         text="luminosity"
-        type="text"
         placeholder="Choose Luminosity "
         value={luminosity}
         onChange={onChangeLuminosity}
       />
       <Input
         text="hue"
-        type="text"
         placeholder="Choose Hue"
         value={hue}
         onChange={onChangeHue}
