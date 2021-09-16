@@ -8,8 +8,8 @@ import Input from './Input.js';
 // App Comonent
 
 function App() {
-  const [hex, setHex] = useState('#32a848');
   const [hue, setHue] = useState('');
+  const [hex, setHex] = useState('#32a848');
   const [luminosity, setLuminosity] = useState('');
 
   // Create random  Hex
