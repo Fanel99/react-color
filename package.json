@@ -38,6 +38,7 @@
     ]
   },
   "devDependencies": {
+    "@babel/eslint-parser": "7.15.4",
     "@next/eslint-plugin-next": "11.0.0",
     "@types/node": "16.0.0",
     "@types/randomcolor": "^0.5.6",
