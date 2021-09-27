@@ -12,13 +12,6 @@ function App() {
   const [hex, setHex] = useState('#32a848');
   const [luminosity, setLuminosity] = useState('');
 
-  // Create random  Hex
-  /* const randomHex = () => {
-    const randomColor = '#' + Math.floor(Math.random() * 16777215).toString(16);
-
-    setHex(randomColor);
-  }; */
-
   //  Handlers
   function onChangeHue(event) {
     setHue(event.currentTarget.value);

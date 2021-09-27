@@ -8,7 +8,7 @@ const button = css`
   color: #fff;
   text-align: center;
   font-size: 16px;
-  width: 173px;
+  width: 147px;
   margin-top: 10px;
 `;
 
