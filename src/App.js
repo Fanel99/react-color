@@ -5,7 +5,7 @@ import { useState } from 'react';
 import Button from './Button.js';
 import Input from './Input.js';
 
-// App Comonent
+// App Component
 
 function App() {
   const [hue, setHue] = useState('');
@@ -34,7 +34,7 @@ function App() {
       className="App"
       style={{
         backgroundColor: hex,
-        minHeight: '33vh',
+        minHeight: '33.3vh',
         overflow: 'hidden',
         zoom: 3,
         transition: 'all  2s ease',
@@ -43,17 +43,11 @@ function App() {
       <h1>{hex}</h1>
 
       <Input
-        text="luminosity"
         placeholder="Choose Luminosity "
         value={luminosity}
         onChange={onChangeLuminosity}
       />
-      <Input
-        text="hue"
-        placeholder="Choose Hue"
-        value={hue}
-        onChange={onChangeHue}
-      />
+      <Input placeholder="Choose Hue" value={hue} onChange={onChangeHue} />
 
       <Button setRandomColor={setHex} luminosity={luminosity} hue={hue} />
     </div>
